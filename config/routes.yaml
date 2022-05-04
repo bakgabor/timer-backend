@@ -1,0 +1,13 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+api_save_timmer:
+  path:       /api/timer/save
+  controller: App\Controller\TimerController::save
+  methods:    POST
+
+api_load_timmer:
+  path:       /api/timer/load
+  controller: App\Controller\TimerController::load
+  methods:    GET
